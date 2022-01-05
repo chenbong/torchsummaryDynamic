@@ -1,5 +1,7 @@
 # torchsummaryDynamic
-Improved tool of [torchsummaryX](https://github.com/nmhkahn/torchsummaryX). `torchsummaryDynamic` support real FLOPs calculation of dynamic network or user-custom PyTorch ops.
+Improved tool of [torchsummaryX](https://github.com/nmhkahn/torchsummaryX).
+
+**torchsummaryDynamic** support real FLOPs calculation of dynamic network or user-custom PyTorch ops.
 
 ## Usage
 
