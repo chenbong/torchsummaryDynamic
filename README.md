@@ -58,6 +58,7 @@ model.apply(lambda m: setattr(m, 'width_mult', 0.5))
 summary(model, torch.zeros(1, 3, 224, 224))
 ```
 
+### Output
 
 ```bash
 # width_mult=1.0
