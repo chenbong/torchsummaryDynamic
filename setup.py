@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name             = "torchsummaryDynamic",
-    version          = "0.0.2",
+    version          = "0.0.3",
     description      = "Improved real/dynamic FLOPs calculation tool of torchsummaryX.",
     author           = "chenbong",
     author_email     = "bhchen@stu.xmu.edu.cn",

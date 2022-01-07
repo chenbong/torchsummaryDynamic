@@ -6,6 +6,12 @@ Improved tool of [torchsummaryX](https://github.com/nmhkahn/torchsummaryX).
 
 ## Usage
 
+```bash
+pip install torchsummaryDynamic
+```
+
+and
+
 ```python
 from torchsummaryDynamic import summary
 summary(your_model, torch.zeros((1, 3, 224, 224)))
@@ -15,6 +21,7 @@ summary(your_model, torch.zeros((1, 3, 224, 224)))
 from torchsummaryDynamic import summary
 summary(your_model, torch.zeros((1, 3, 224, 224)), calc_op_types=(nn.Conv2d, nn.Linear))
 ```
+
 Args:
 - `model` (Module): Model to summarize
 - `x` (Tensor): Input tensor of the model with [N, C, H, W] shape dtype and device have to match to the model
